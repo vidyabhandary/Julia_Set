@@ -89,6 +89,7 @@ window.onload = function () {
     }
 
     // Calculate the color of a specific pixel
+    // From - https://rosettacode.org/wiki/Julia_set
     function iterate(x, y, maxiterations, jsX, jsY) {
         // Convert the screen coordinate to a fractal coordinate
         var a = (x + offsetx + panx) / zoom;
